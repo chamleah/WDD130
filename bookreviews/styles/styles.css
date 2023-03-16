@@ -22,7 +22,7 @@ header {
 #logo_link {
     padding-top: 5px;
     justify-self: left;
-    align-self: left;
+    align-self: center;
 }
 nav{
     display: flex;
@@ -71,7 +71,6 @@ body {
 .home-grid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr;
 }
 .ACOTAR-card, .ACOMAF-card, .ACOWAR-card, .ACOFAS-card, .ACOSF-card, .TOG1-card, .TOG2-card, .TOG3-card, .TOG4-card, .TOG5-card, .TOG6-card, .TOG7-card, .TOG8-card{
     margin: auto;
@@ -98,22 +97,17 @@ body {
 }
 .merch-card3{
     grid-column: 1/2;
-    grid-row: 0/1;
 }
 .merch-card4{
     grid-column: 2/3;
-    grid-row: 0/1;
 }
 .merch-card5{
     grid-column: 3/4;
-    grid-row: 0/1;
 }
 .merch-card6{
     grid-column: 4/5;
-    grid-row: 0/1;
 }
 .merch-card7{
-    grid-column: 0/1;
     grid-row: 1/2;
 }
 .merch-card8{
@@ -156,46 +150,4 @@ footer p a:hover {
 }
 footer .social img {
     padding-top: 15px;
-}
-
-
-
-
-@media screen and (max-width: 900px) {
-    #home, .home-grid {
-        display: block;
-        height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    #home {
-        margin-top: 0;
-    }
-    #home-msg {
-        margin-top: 0;
-    }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
-    .rivers-card, .camping-card, .rapids-card, .rivers2-card{ 
-        margin: 50px auto;
-        width: 80%;
-    }
-    #background {
-        display: none;
-    }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-    footer {
-        margin-top: 25px;
-    }
 }
