@@ -75,6 +75,10 @@ body {
 .ACOTAR-card, .ACOMAF-card, .ACOWAR-card, .ACOFAS-card, .ACOSF-card, .TOG1-card, .TOG2-card, .TOG3-card, .TOG4-card, .TOG5-card, .TOG6-card, .TOG7-card, .TOG8-card{
     margin: 10px;
 }
+.ACOTAR-card{
+    width: 4in;
+    height: 6.14in;
+}
 .fan-art-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
