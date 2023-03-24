@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Leckerli+One&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -57,7 +59,7 @@ nav a:hover {
 }
 body {
     background-color: #b8a470 ;
-    font-family: 'Roboto', 'Bradley Hand', sans-serif;
+    font-family: 'Leckerli one', 'Amatic SC', sans-serif;
     margin: 0;
     padding: 0;
 }
