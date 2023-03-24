@@ -12,7 +12,7 @@ nav a {
 }
 header {
     background-color: #ff6666 ;
-    font-family: 'Roboto';
+    font-family: 'Leckerli one';
     display: grid;
     grid-template-columns: 50px auto;
     grid-template-rows: 110px auto;
@@ -59,7 +59,7 @@ nav a:hover {
 }
 body {
     background-color: #b8a470 ;
-    font-family: 'Leckerli one', 'Amatic SC', sans-serif;
+    font-family: 'Roboto', 'Amatic SC', sans-serif;
     margin: 0;
     padding: 0;
 }
